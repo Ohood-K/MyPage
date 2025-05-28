@@ -23,3 +23,7 @@ body{
 #workoffer{
     margin: 5%;
 }
+
+#workoffer tr{
+    border: dashed;
+}
