@@ -1,4 +1,9 @@
+body{
+    background-color: deepskyblue;
+}
+
 .content{
+    background-color: white;
     max-width: 1000px;
     align-self: center;
     margin: auto;
@@ -14,3 +19,8 @@
     text-align: center;
     margin-bottom: 5%;
 }
+
+#workoffer{
+    margin: 5%;
+}
+
