@@ -6,7 +6,7 @@ function changedark(){
     let body=document.querySelector("body")
     let content=document.querySelector(".content")
 
-    if (content.style.backgroundColor == "white"){
+    if (getComputedStyle(content).backgroundColor == "rgb(255, 255, 255)"){
         content.style.backgroundColor = "black";
         body.style.color = "white";
     }
@@ -16,3 +16,12 @@ function changedark(){
     }
     
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        let body = document.querySelector("body");
+        let content = document.querySelector(".content");
+        content.style.backgroundColor = "black";
+        body.style.color = "white";
+    }
+});
