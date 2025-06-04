@@ -1,5 +1,7 @@
 body{
-    background-color: deepskyblue;
+    background-image: url("src/brick wall.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     color:black;
 }
 
