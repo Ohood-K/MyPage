@@ -30,3 +30,12 @@ body{
 #workoffer tbody tr{
     border: dashed;
 }
+
+#darkmode{
+    background-color:white;
+    max-width: 5%;
+}
+
+.mode{
+    width: 100%;
+}
