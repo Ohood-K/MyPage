@@ -9,12 +9,12 @@ function changedark(){
     if (getComputedStyle(content).backgroundColor == "rgb(255, 255, 255)"){
         content.style.backgroundColor = "black";
         body.style.color = "white";
-        body.style.backgroundImage = "src/night brick.jpg";
+        body.style.backgroundImage = "url('src/night brick.jpg')";
     }
     else {
         content.style.backgroundColor = "white";
         body.style.color = "black";
-        body.style.backgroundImage = "src/brick wall.jpg";
+        body.style.backgroundImage = "url('src/brick wall.jpg')";
     }
     
 }
@@ -25,6 +25,6 @@ window.addEventListener("DOMContentLoaded", () => {
         let content = document.querySelector(".content");
         content.style.backgroundColor = "black";
         body.style.color = "white";
-        body.style.backgroundImage = "src/night brick.jpg";
+        body.style.backgroundImage = "url('src/night brick.jpg')";
     }
 });
