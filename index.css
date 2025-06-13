@@ -37,8 +37,11 @@ body{
 #darkmode{
     background-color: transparent;
     max-width: 5%;
+    border-style: none;
 }
 
 .mode{
     width: 100%;
+    align-self: center;
+    margin: auto;
 }
