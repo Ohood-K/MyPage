@@ -2,16 +2,17 @@ body{
     background-image: url("src/brick wall.jpg");
     background-size: cover;
     background-attachment: fixed;
-    color:black;
+    color: #0c111c;
     transition: Color 0.3s;
 }
 
 .content{
-    background-color: white;
+    background-color:  #f2f2f2 ;
     max-width: 1000px;
     align-self: center;
     margin: auto;
     transition: background-color 0.3s;
+    padding: auto;
 }
 
 .recent{
@@ -34,7 +35,7 @@ body{
 }
 
 #darkmode{
-    background-color:white;
+    background-color: transparent;
     max-width: 5%;
 }
 
