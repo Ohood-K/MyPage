@@ -3,6 +3,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color:black;
+    transition: Color 0.3s;
 }
 
 .content{
@@ -10,6 +11,7 @@ body{
     max-width: 1000px;
     align-self: center;
     margin: auto;
+    transition: background-color 0.3s;
 }
 
 .recent{
